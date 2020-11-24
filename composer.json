@@ -1,0 +1,23 @@
+{
+    "name": "rafapalamim/open-pet",
+    "description": "Sistema open source para ONGs de pets",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Palamim",
+            "email": "rafael.palamim@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "1.0.*",
+        "coffeecode/optimizer": "2.0.*",
+        "coffeecode/datalayer": "1.1.*"
+    },
+    "autoload": {
+        "files": ["app/config/constants.php", "app/config/init.php"],
+        "psr-4": {
+            "OpenPet\\": "app/"
+        }
+    }
+}
