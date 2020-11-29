@@ -1,5 +1,7 @@
 <?php
 
+use CoffeeCode\Router\Router;
+
 require './vendor/autoload.php';
 
-var_dump(get_defined_constants(1)['user']);
+$router = new Router(APP_URL);
