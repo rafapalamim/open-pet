@@ -13,7 +13,8 @@
         "coffeecode/router": "1.0.*",
         "coffeecode/optimizer": "2.0.*",
         "coffeecode/datalayer": "1.1.*",
-        "league/plates": "3.3.0"
+        "league/plates": "3.3.0",
+        "robmorgan/phinx": "^0.12.4"
     },
     "autoload": {
         "files": ["app/config/constants.php", "app/config/init.php"],

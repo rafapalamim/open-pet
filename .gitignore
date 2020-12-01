@@ -1,4 +1,5 @@
 /vendor
 /phpinfo.php
-/_docker
+/_docker/db/*
+/_docker/db/*.*
 /node_modules

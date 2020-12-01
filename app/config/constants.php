@@ -26,7 +26,7 @@ define('APP_SITE_NAME', 'OpenPet');
 define('APP_SITE_DESCRIPTION', 'Sistema Open Source para ONGs de animais (Doação, adoção, institucional)');
 define('APP_ACTIVE_THEME', 'teste');
 
-define('APP_URL', (APP_ENV === PRODUCTION ? 'https://teste.com.br' : 'http://localhost:8080'));
+define('APP_URL', (APP_ENV === PRODUCTION ? 'https://openpet.com.br' : 'https://openpet.com.br'));
 define('APP_URL_ASSETS', APP_URL . '/assets');
 define('APP_URL_STORAGE', APP_URL . '/storage');
 define('APP_URL_THEME', APP_URL . '/themes/' . APP_ACTIVE_THEME);
