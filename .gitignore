@@ -2,4 +2,5 @@
 /phpinfo.php
 /_docker/db/*
 /_docker/db/*.*
+!/_docker/db
 /node_modules
